@@ -6,6 +6,10 @@
 
 #include "enki42.dtsi"
 
+&chosen {
+		zephyr,display = &oled;
+	};
+    
 &kscan0 {
 	col-gpios
 		= <&pro_micro 14 GPIO_ACTIVE_HIGH>
