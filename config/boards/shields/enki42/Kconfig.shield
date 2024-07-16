@@ -9,3 +9,6 @@ config SHIELD_ENKI42_RIGHT
 
 config SHIELD_ENKI42_DONGLE
 	def_bool $(shields_list_contains,enki42_dongle)
+
+config SHIELD_ENKI42_CENTRAL_LEFT
+    def_bool $(shields_list_contains,enki42_central_left)
