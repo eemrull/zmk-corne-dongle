@@ -204,7 +204,7 @@
 
             bindings = <
 &kp ESCAPE  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)      &trans   &left_word      &kp UP    &right_word  &kp PAGE_UP    &kp DELETE
-&kp CAPS    &kp LEFT_GUI      &kp LEFT_ALT      &kp LCTRL         &kp LEFT_SHIFT    &trans          &trans   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT    &kp INS        &trans
+&kp CAPS    &kp LEFT_GUI      &kp LEFT_ALT      &kp LCTRL         &kp LEFT_SHIFT    &kp LG(Q)       &trans   &kp LEFT_ARROW  &kp DOWN  &kp RIGHT    &kp INS        &trans
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4    &trans   &copy           &cut      &paste       &kp PAGE_DOWN  &trans
                                                 &tog 6            &trans            &kp SPACE       &kp RET  &trans          &trans
             >;
