@@ -179,10 +179,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp W             &kp L        &kp Y                &kp P              &kp B        &kp F      &kp J               &kp O                 &kp U             &kp SEMICOLON     &kp ESCAPE
-&kp LCTRL  &hml LEFT_META C  &hml LALT R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G        &kp M      &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI A  &kp SQT
-&kp LSHFT  &kp Q             &kp Z        &kp V                &kp D              &kp K        &kp X      &kp H               &kp SLASH             &kp COMMA         &kp PERIOD        &key_repeat
-                                          &lt 3 LEFT_ALT       &mo 1              &kp SPACE    &kp ENTER  &lt 4 BACKSPACE     &lt 2 LEFT_GUI
+&mt LEFT_GUI LEFT_ALT  &kp Q             &kp W        &kp F                &kp P              &kp B        &kp J      &kp L               &kp U                 &kp Y             &kp SEMICOLON     &kp ESCAPE
+&kp LCTRL              &hml LEFT_META C  &hml LALT R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G        &kp M      &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O  &kp SQT
+&kp LSHFT              &kp Z             &kp X        &kp C                &kp D              &kp V        &kp K      &kp H               &kp COMMA             &kp COMMA         &kp SLASH         &key_repeat
+                                                      &lt 3 TAB            &mo 1              &kp SPACE    &kp ENTER  &lt 4 BACKSPACE     &lt 2 LEFT_GUI
             >;
         };
 
@@ -244,10 +244,10 @@
 
         wm {
             bindings = <
-&trans  &trans  &trans            &trans            &kp LS(LA(Q))     &trans           &trans             &sk LS(LEFT_ALT)    &trans         &trans            &trans  &trans
-&trans  &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(SPACE)    &kp LA(LS(SPACE))  &kp LA(NUMBER_4)    &kp LA(N5)     &kp LA(NUMBER_6)  &trans  &trans
-&trans  &trans  &kp LA(N7)        &kp LA(N9)        &kp LA(N0)        &trans           &trans             &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans            &trans  &trans
-                                  &trans            &trans            &trans           &trans             &trans              &trans
+&trans  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &trans             &sk LS(LEFT_ALT)    &trans         &trans            &trans  &trans
+&trans  &kp LG(A)         &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LG(Q)           &kp LA(LS(SPACE))  &kp LA(NUMBER_4)    &kp LA(N5)     &kp LA(NUMBER_6)  &trans  &trans
+&trans  &trans            &kp LA(N7)        &kp LA(N9)        &kp LA(N0)        &trans              &trans             &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans            &trans  &trans
+                                            &trans            &trans            &kp LG(SPACE)       &trans             &trans              &trans
             >;
 
             label = "WM";
