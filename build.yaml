@@ -9,12 +9,16 @@ include:
   - board: nice_nano_v2
     shield: enki42_left
     artifact-name: corne_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: enki42_right
     artifact-name: corne_right
   - board: nice_nano_v2
     shield: enki42_dongle dongle_display
     artifact-name: corne_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano_v2
     shield: enki42_central_left
     artifact-name: corne_central_left
